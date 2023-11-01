@@ -1,3 +1,4 @@
+import 'package:bayte/App/splash/Presentation/Views/Screens/SplashView.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,6 +9,9 @@ class MainWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp();
+    return MaterialApp(
+      theme: ThemeData(),
+      home:SplashView() ,
+    );
   }
 }
