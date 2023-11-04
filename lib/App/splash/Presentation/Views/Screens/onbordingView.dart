@@ -3,7 +3,6 @@ import 'package:bayte/App/Core/Styles/text_Style.dart';
 import 'package:bayte/App/splash/Presentation/Views/Widgets/Onbordin2.dart';
 import 'package:bayte/App/splash/Presentation/Views/Widgets/Onbording1.dart';
 import 'package:bayte/App/splash/Presentation/Views/Widgets/Onbording3.dart';
-import 'package:bayte/App/splash/Presentation/Views/Widgets/customaButton.dart';
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
@@ -38,7 +37,7 @@ class _OnbordingviewState extends State<Onbordingview> {
       ],
       showNextButton: false,
       showDoneButton: false,
-      dotsDecorator: DotsDecorator(
+      dotsDecorator: const DotsDecorator(
         activeColor: AppColors.kMainColor,
       ),
     );
