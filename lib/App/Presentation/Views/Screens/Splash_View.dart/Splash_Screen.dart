@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../../splash/Presentation/Views/Screens/SplashView.dart';
-import '../../../../splash/Presentation/Views/Screens/onbordingView.dart';
+import 'widgets/AppName.dart';
+import '../Onbording_View/onbordingView.dart';
 import 'widgets/AppIcon.dart';
 
 class SplashView extends StatelessWidget {

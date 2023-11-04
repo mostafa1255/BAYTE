@@ -1,4 +1,4 @@
-import 'package:bayte/App/splash/Presentation/Views/Screens/SplashView.dart';
+import 'package:bayte/App/Presentation/Views/Screens/Splash_View.dart/Splash_Screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

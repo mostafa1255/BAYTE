@@ -1,5 +1,5 @@
 import 'package:bayte/App/Core/Styles/text_Style.dart';
-import 'package:bayte/App/splash/Presentation/Views/Widgets/customaButton.dart';
+import 'package:bayte/App/Presentation/Views/Widgets/customaButton.dart';
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 

@@ -1,10 +1,10 @@
 import 'package:bayte/App/Core/Styles/text_Style.dart';
-import 'package:bayte/App/splash/Presentation/Views/Widgets/customaButton.dart';
+import 'package:bayte/App/Presentation/Views/Widgets/customaButton.dart';
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
-class Onbording3 extends StatelessWidget {
-  const Onbording3({
+class Onbording2 extends StatelessWidget {
+  const Onbording2({
     super.key,
     required GlobalKey<IntroductionScreenState> introKey,
   }) : _introKey = introKey;
@@ -16,14 +16,14 @@ class Onbording3 extends StatelessWidget {
     return Column(
       children: [
         Image.asset(
-          'assets/images/Live tracking vector 3.png',
+          'assets/images/Delivery vector 2.png',
           height: MediaQuery.of(context).size.height * .4,
         ),
         SizedBox(
           height: MediaQuery.of(context).size.height * .065,
         ),
         Text(
-          'Live Tracking',
+          'Fast Delivery',
           style: Txtstyle.style25s(context: context),
         ),
         SizedBox(
@@ -33,15 +33,18 @@ class Onbording3 extends StatelessWidget {
           height: MediaQuery.of(context).size.height * .074,
           width: MediaQuery.of(context).size.width * .79,
           child: const Text(
-            'Real time tracking of your food on the app once you placed the order',
+            'Fast food delivery to your home, office wherever you are',
             textAlign: TextAlign.center,
           ),
         ),
         CustomButton(
           title: 'Next',
-          onTap: () {},
+          onTap: () {
+            _introKey.currentState?.next();
+          },
         )
       ],
     );
+    ;
   }
 }
