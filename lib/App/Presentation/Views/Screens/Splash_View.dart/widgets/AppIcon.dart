@@ -1,3 +1,4 @@
+import 'package:bayte/App/Core/Styles/App_Image.dart';
 import 'package:flutter/material.dart';
 
 class AppIcon extends StatelessWidget {
@@ -9,7 +10,7 @@ class AppIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
         child: Image.asset(
-      'assets/images/mainlogo.png',
+      AppImage.appIcon,
       height: MediaQuery.of(context).size.height * .17,
     ));
   }
